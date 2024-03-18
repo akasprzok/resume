@@ -1,8 +1,5 @@
 {
     "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
-    "meta": {
-        "theme": "elegant"
-    },
     "basics": {
       "name": "Andreas Kasprzok",
       "label": "Software Engineer",
@@ -247,6 +244,7 @@
       }
     ],
     "meta": {
+      "theme": "elegant",
       "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
       "version": "v1.0.0",
       "lastModified": "2017-12-24T15:53:00"
