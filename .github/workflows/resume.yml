@@ -1,17 +1,19 @@
-name: Update Resume Gist
-
-on: push
+on: [push]
 
 jobs:
-  update-resume-gist:
-    runs-on: ubuntu-latest 
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: A job to say hello
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v3
-
-    - name: Update Resume Gist
-      uses: exuanbo/actions-deploy-gist@v1
-      with:
-        token: ${{ secrets.RESUME_UPDATE_TOKEN }}
-        gist_id: 6011527b7f2e5af1e6634b63a15bfc70
-        file_path: resume/resume.json
+      # To use this repository's private action,
+      # you must check out the repository
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Hello world action step
+        uses: ./ # Uses an action in the root directory
+        id: hello
+        with:
+          who-to-greet: 'Mona the Octocat'
+      # Use the output from the `hello` step
+      - name: Get the output time
+        run: echo "The time was ${{ steps.hello.outputs.time }}"
