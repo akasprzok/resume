@@ -1,0 +1,254 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
+    "meta": {
+        "theme": "elegant"
+    },
+    "basics": {
+      "name": "Andreas Kasprzok",
+      "label": "Software Engineer",
+      "email": "akasprzok@mail.com",
+      "url": "https://www.temporaryhack.com",
+      "summary": "Polyglot technologist excited about building scalable, resilient and available services and infrastructure. Highly autonomous and outcome-driven with a passion for observability.",
+      "location": {
+        "city": "Bellingham",
+        "countryCode": "US",
+        "region": "Washington"
+      },
+      "profiles": [
+        {
+          "url": "https://github.com/akasprzok"
+        },
+        {
+          "url": "https://linkedin.com/in/akasprzok"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Massdriver",
+        "location": "Remote, United States",
+        "position": "Lead Platform Engineer",
+        "startDate": "2022-09",
+        "endDate": "2024-03",
+        "summary": "TODO",
+        "highlights": [
+        "Key contributor to the core Massdriver platform, enabling the deployment of hundreds of resources every day ranging from Kubernetes clusters to services on all three major clouds using a variety of provisioners",
+        "Evangelized Massdriver’s value to customers via webinars and blog posts",
+        "Spearheaded the development of Massdriver’s metrics product, scraping over 50 million metrics from AWS, Azure, and GCP"
+        ]
+      },
+      {
+        "name": "BlockFi",
+        "location": "Remote, United States",
+        "position": "Tech Lead, Observability",
+        "startDate": "2020-08",
+        "endDate": "2022-08",
+        "summary": "*Amazon.com* is an American multinational technology company based in *Seattle, Washington*, which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. The company has been referred to as *one of the most influential economic and cultural forces in the world*, as well as the world's most valuable brand.",
+        "highlights": [
+          "Promoted from Senior Engineer to Tech Lead after demonstrating ability to cut through team silos to horizontally align the engineering organization around reliability and availability goals for the platform",
+          "Built a team and observability stack that watched over billions of dollars in crypto deposits and served a 500-strong engineering org across 3 continents"
+        ]
+      },
+      {
+        "name": "Autonomic",
+        "location": "Remote, United States",
+        "position": "Senior Software Engineer",
+        "url": "https://www.autonomic.ai/",
+        "startDate": "2017-01",
+        "endDate": "2020-08",
+        "summary": "*Facebook* is an American social media conglomerate corporation based in *Menlo Park, California*. It was founded by **Mark Zuckerberg**, along with his fellow roommates and students at Harvard College, who were Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes, originally as TheFacebook.com—today's Facebook, a popular global social networking website.",
+        "highlights": [
+          "Promoted from Software Engineer to Senior Software Engineer based on exceptional performance and ownership of key services",
+          "Developed and operated cloud services that enable all current generation Ford vehicles to perform gigabyte-sized OTA updates, send hundreds of megabytes of telemetry per day, and execute commands remotely"
+        ]
+      },
+      {
+        "name": "Google",
+        "location": "California, United States",
+        "position": "Software Engineer Intern",
+        "url": "https://www.google.com/",
+        "startDate": "2009-09-13",
+        "endDate": "2010-02-13",
+        "summary": "*Google* is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware. It is considered one of the Big Five technology companies in the U.S. information technology industry, alongside Amazon, Facebook, Apple, and Microsoft.",
+        "highlights": [
+          "Ut pharetra sit amet aliquam id diam",
+          "Vitae congue eu consequat ac",
+          "Cursus sit amet dictum sit amet"
+        ]
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "Orcasound",
+        "position": "Contributor",
+        "url": "https://www.orcasound.net/",
+        "startDate": "2023-08",
+        "summary": "Nulla sit amet velit ac turpis interdum consectetur eget vitae ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam pharetra diam et tortor bibendum laoreet.",
+        "highlights": [
+          "Maecenas at dictum sem",
+          "Ut ac ex ac ipsum commodo",
+          "Pellentesque vitae sed dolor",
+          "Aliquam ut lectus ac lacus ultrices"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "International Center for Automotive Research",
+        "url": "https://www.cuicar.com//",
+        "area": "Automotive Engineering",
+        "studyType": "Ph.D."
+      },
+      {
+        "institution": "Clemson University",
+        "url": "https://www.clemson.edu/",
+        "area": "Computer Engineering",
+        "studyType": "B.S."
+      }
+    ],
+    "awards": [
+      {
+        "title": "Website of the day",
+        "awarder": "Awwward",
+        "summary": "Received for my website [domain.com](domain.com)"
+      },
+      {
+        "title": "Java Champion",
+        "awarder": "Oracle",
+        "summary": "Obtained thanks to my contributions \n\n to the Java community."
+      }
+    ],
+    "certificates": [],
+    "publications": [
+      {
+        "name": "An ant-inspired model for multi-agent interaction networks without stigmergy",
+        "publisher": "Springer Swarm Intelligence",
+        "releaseDate": "2017-11-13",
+        "url": "https://link.springer.com/epdf/10.1007/s11721-017-0147-4?author_access_token=Yq3Igpf5Jzr6E6zM6x4FGve4RwlQNchNByi7wbcMAY5mCgzjaXtPzkevknds0UBZVHwICGHsKaPhfA2DgMnw2vjpwQxP3zU7mKgQZtKYTrnscLgSh_6XmRCEY0SqnFyekBhuP34ZHy-tI4BFdSif3w=="
+      },
+      {
+        "name": "Dash Designer: A Multi-Modal Design Tool for Vehicle Interactivity",
+        "publisher": "AutomotiveUI '14",
+        "releaseDate": "2014-09-17",
+        "summary": "We present Dash Designer: a mixed-reality design tool for vehicle interiors. The tool consists of a tablet and projector that can be used to create and organize new interactive components for vehicle dashboards. A user can use a freehand sketching interface to draw a new interactive element on the tablet, and a simple set of gestures to motion the created item onto a real dashboard. A simple interface is provided to connect the created components to vehicle data published by an integrated driving simulator. The system is currently a work in progress, and future work will include integration with real vehicle dashboards, autonomous vehicles, and support for participatory design sessions.",
+        "url": "https://dl.acm.org/doi/10.1145/2667239.2667278"
+      },
+      {
+        "name": "Decentralized Congestion Control in Random Ant Interaction Networks",
+        "publisher": "Springer",
+        "releaseDate": "2017-06-17",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-319-61824-1_29"
+      },
+      {
+        "name": "Decentralized traffic rerouting using minimalist communications",
+        "publisher": "IEEE",
+        "releaseDate": "2018-02-15",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-319-61824-1_29"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Languages",
+        "keywords": [
+          "Java",
+          "Python",
+          "Javascript",
+          "Rust",
+          "Golang"
+        ]
+      },
+      {
+        "name": "Frameworks",
+        "keywords": [
+          "Spring",
+          "Django",
+          "Express"
+        ]
+      },
+      {
+        "name": "Tools",
+        "keywords": [
+          "VS Code",
+          "Intellij IDEA"
+        ]
+      },
+      {
+        "name": "Technologies",
+        "keywords": [
+          "Docker",
+          "AWS"
+        ]
+      },
+      {
+        "name": "Other",
+        "keywords": [
+          "Open source",
+          "XP"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Fluent"
+      },
+      {
+        "language": "German",
+        "fluency": "Native"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Pixelart"
+      },
+      {
+        "name": "Open Source"
+      },
+      {
+        "name": "Gardening"
+      },
+      {
+        "name": "Writing"
+      }
+    ],
+    "references": [],
+    "projects": [
+      {
+        "name": "Deno",
+        "description": "*Deno* is a runtime for JavaScript and TypeScript that is based on the V8 JavaScript engine and the Rust programming language. It was created by **Ryan Dahl**, original creator of Node.js, and is focused on productivity. It was announced by Dahl in 2018 during his talk \"*10 Things I Regret About Node.js*\".",
+        "highlights": [
+          "Vitae tempus quam pellentesque",
+          "Dui accumsan sit amet nulla",
+          "Ultrices vitae auctor eu augue",
+          "Scelerisque felis imperdiet",
+          "Pellentesque dignissim enim sit"
+        ],
+        "startDate": "2018-05-13",
+        "url": "https://deno.land/",
+        "roles": [
+          "creator"
+        ]
+      },
+      {
+        "name": "Node.js",
+        "description": "*Node.js* is an open-source, cross-platform, back-end JavaScript runtime environment that executes JavaScript code outside a web browser.",
+        "highlights": [
+          "Commodo elit at imperdiet dui",
+          "Id volutpat lacus laoreet non",
+          "Accumsan lacus vel facilisis"
+        ],
+        "startDate": "2011-08-26",
+        "endDate": "2018-05-12",
+        "url": "https://nodejs.org/",
+        "roles": [
+          "contributor",
+          "evangelist"
+        ]
+      }
+    ],
+    "meta": {
+      "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+      "version": "v1.0.0",
+      "lastModified": "2017-12-24T15:53:00"
+    }
+  }
