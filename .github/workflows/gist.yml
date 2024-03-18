@@ -14,4 +14,4 @@ jobs:
       with:
         token: ${{ secrets.RESUME_UPDATE_TOKEN }}
         gist_id: 6011527b7f2e5af1e6634b63a15bfc70
-        file_path: resume/resume.json
+        file_path: resume.json
